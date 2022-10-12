@@ -1,2 +1,13 @@
-import pandas as pd
-#we will see what's next later 
+Loops: for in List in List exercise:
+
+# house list of lists
+house = [["hallway", 11.25], 
+         ["kitchen", 18.0], 
+         ["living room", 20.0], 
+         ["bedroom", 10.75], 
+         ["bathroom", 9.50]]
+         
+# Build a for loop from scratch
+for a in enumerate(house):
+    print('the ' + str(a[1][0]) +' is '+ str(a[1][1])+ ' sqm')
+    #print(str(a[1][0]))
