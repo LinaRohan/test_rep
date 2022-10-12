@@ -22,3 +22,17 @@ europe = {'spain':'madrid', 'france':'paris', 'germany':'berlin',
 # Iterate over europe
 for c, t in europe.items():
     print('the capital of '+ c + ' is '+ t)
+
+
+LOOP IN NUMPY AND 2D NUMPY ARRAYS
+
+# Import numpy as np
+import numpy as np
+#print(np_height)
+# For loop over np_height
+for x in np_height:
+    print(str(x)+' inches' )
+
+# For loop over np_baseball
+for val in np.nditer(np_baseball) :
+    print(val)
