@@ -11,3 +11,14 @@ house = [["hallway", 11.25],
 for a in enumerate(house):
     print('the ' + str(a[1][0]) +' is '+ str(a[1][1])+ ' sqm')
     #print(str(a[1][0]))
+
+
+LOOP OVER DICTIONARY
+
+# Definition of dictionary
+europe = {'spain':'madrid', 'france':'paris', 'germany':'berlin',
+          'norway':'oslo', 'italy':'rome', 'poland':'warsaw', 'austria':'vienna' }
+          
+# Iterate over europe
+for c, t in europe.items():
+    print('the capital of '+ c + ' is '+ t)
